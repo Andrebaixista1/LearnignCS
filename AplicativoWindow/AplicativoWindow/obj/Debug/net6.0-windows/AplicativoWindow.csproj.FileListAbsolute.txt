@@ -1,0 +1,17 @@
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\bin\Debug\net6.0-windows\AplicativoWindow.exe
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\bin\Debug\net6.0-windows\AplicativoWindow.deps.json
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\bin\Debug\net6.0-windows\AplicativoWindow.runtimeconfig.json
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\bin\Debug\net6.0-windows\AplicativoWindow.dll
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\bin\Debug\net6.0-windows\AplicativoWindow.pdb
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.Form1.resources
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.dll
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\refint\AplicativoWindow.dll
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.pdb
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\AplicativoWindow.genruntimeconfig.cache
+C:\Users\Administrador\source\repos\AplicativoWindow\AplicativoWindow\obj\Debug\net6.0-windows\ref\AplicativoWindow.dll
