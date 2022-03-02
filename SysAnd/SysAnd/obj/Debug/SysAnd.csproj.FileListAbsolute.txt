@@ -1,0 +1,12 @@
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\bin\Debug\SysAnd.exe.config
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\bin\Debug\SysAnd.exe
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\bin\Debug\SysAnd.pdb
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.frmSysAnd.resources
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.Properties.Resources.resources
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.exe
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.pdb
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.frmUser.resources
