@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SysAnd
 {
-    public partial class frmUser : Form
+    public partial class frmUserDash : Form
     {
-        public frmUser()
+        public frmUserDash()
         {
             InitializeComponent();
         }

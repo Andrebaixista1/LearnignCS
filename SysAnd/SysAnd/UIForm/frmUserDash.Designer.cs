@@ -1,6 +1,6 @@
 ﻿namespace SysAnd
 {
-    partial class frmUser
+    partial class frmUserDash
     {
         /// <summary>
         /// Required designer variable.

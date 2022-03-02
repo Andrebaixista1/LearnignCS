@@ -9,4 +9,5 @@ C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.Genera
 C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.exe
 C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.pdb
-C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.frmUser.resources
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.frmUserDash.resources
+C:\Users\Administrador\source\repos\SysAnd\SysAnd\obj\Debug\SysAnd.UIForm.frmUsers.resources
