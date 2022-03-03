@@ -19,5 +19,6 @@ namespace SysAnd.BLLClasses
         public string UserType { get; set; }
         public DateTime AddDate { get; set; }
         public int AddBy { get; set; }
+        public object UserName { get; internal set; }
     }
 }

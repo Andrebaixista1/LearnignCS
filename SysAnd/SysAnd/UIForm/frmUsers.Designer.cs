@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsers));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUserID = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -56,10 +57,10 @@
             this.btnDel = new System.Windows.Forms.Button();
             this.cbSex = new System.Windows.Forms.ComboBox();
             this.cbType = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dvgUser = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgUser)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -73,6 +74,17 @@
             this.panel1.Size = new System.Drawing.Size(800, 41);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(762, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -83,17 +95,6 @@
             this.label1.Size = new System.Drawing.Size(173, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Formulário de Usuarios";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SysAnd.Properties.Resources.cancel__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(762, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
@@ -108,6 +109,7 @@
             // 
             // txtUserID
             // 
+            this.txtUserID.Enabled = false;
             this.txtUserID.Location = new System.Drawing.Point(135, 71);
             this.txtUserID.Name = "txtUserID";
             this.txtUserID.ReadOnly = true;
@@ -272,6 +274,7 @@
             this.btnCad.TabIndex = 23;
             this.btnCad.Text = "Cadastrar";
             this.btnCad.UseVisualStyleBackColor = true;
+            this.btnCad.Click += new System.EventHandler(this.btnCad_Click);
             // 
             // txtAddress
             // 
@@ -289,6 +292,7 @@
             this.btnUp.TabIndex = 25;
             this.btnUp.Text = "Atualizar";
             this.btnUp.UseVisualStyleBackColor = true;
+            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // btnDel
             // 
@@ -298,6 +302,7 @@
             this.btnDel.TabIndex = 26;
             this.btnDel.Text = "Deletar";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // cbSex
             // 
@@ -321,14 +326,15 @@
             this.cbType.Size = new System.Drawing.Size(121, 21);
             this.cbType.TabIndex = 28;
             // 
-            // dataGridView1
+            // dvgUser
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(357, 102);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(414, 323);
-            this.dataGridView1.TabIndex = 29;
+            this.dvgUser.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dvgUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgUser.Location = new System.Drawing.Point(357, 102);
+            this.dvgUser.Name = "dvgUser";
+            this.dvgUser.Size = new System.Drawing.Size(414, 323);
+            this.dvgUser.TabIndex = 29;
+            this.dvgUser.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dvgUser_RowHeaderMouseClick);
             // 
             // frmUsers
             // 
@@ -336,7 +342,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 494);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dvgUser);
             this.Controls.Add(this.cbType);
             this.Controls.Add(this.cbSex);
             this.Controls.Add(this.btnDel);
@@ -367,10 +373,11 @@
             this.Name = "frmUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuarios";
+            this.Load += new System.EventHandler(this.frmUsers_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -406,6 +413,6 @@
         private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.ComboBox cbSex;
         private System.Windows.Forms.ComboBox cbType;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dvgUser;
     }
 }
